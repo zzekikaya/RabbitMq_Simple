@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csproj", "{7306E45C-AD92-4648-8572-258C8E59DF70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server2", "Server2\Server2.csproj", "{5EDEE341-8E61-4DA2-B04C-DCC7C2873BE9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A7107FF1-127A-40CE-AC7E-608205520E64}"
+	ProjectSection(SolutionItems) = preProject
+		SetupRabbitMQ.bat = SetupRabbitMQ.bat
+		SetupRabbitMQ.ps1 = SetupRabbitMQ.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{42AA8959-E574-4649-91DE-BE84051795D5}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinClient", "WinClient\WinClient.csproj", "{3A8BACD1-41CB-4787-B3F0-FFADB8EEE8AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server3", "Server3\Server3.csproj", "{5418A83F-C296-469F-B65B-929C25B60327}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server4", "Server4\Server4.csproj", "{1EDC23AA-4A74-4EB4-960E-232122DF9BB1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7306E45C-AD92-4648-8572-258C8E59DF70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7306E45C-AD92-4648-8572-258C8E59DF70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7306E45C-AD92-4648-8572-258C8E59DF70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7306E45C-AD92-4648-8572-258C8E59DF70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EDEE341-8E61-4DA2-B04C-DCC7C2873BE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EDEE341-8E61-4DA2-B04C-DCC7C2873BE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EDEE341-8E61-4DA2-B04C-DCC7C2873BE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EDEE341-8E61-4DA2-B04C-DCC7C2873BE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A8BACD1-41CB-4787-B3F0-FFADB8EEE8AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A8BACD1-41CB-4787-B3F0-FFADB8EEE8AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A8BACD1-41CB-4787-B3F0-FFADB8EEE8AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A8BACD1-41CB-4787-B3F0-FFADB8EEE8AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5418A83F-C296-469F-B65B-929C25B60327}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5418A83F-C296-469F-B65B-929C25B60327}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5418A83F-C296-469F-B65B-929C25B60327}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5418A83F-C296-469F-B65B-929C25B60327}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EDC23AA-4A74-4EB4-960E-232122DF9BB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EDC23AA-4A74-4EB4-960E-232122DF9BB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EDC23AA-4A74-4EB4-960E-232122DF9BB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EDC23AA-4A74-4EB4-960E-232122DF9BB1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
