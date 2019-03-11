@@ -1,2 +1,2 @@
-# RabbitMq_Simpl
-rabbit project
+# RabbitMq Simple 
+ 
